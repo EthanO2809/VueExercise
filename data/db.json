@@ -1,0 +1,60 @@
+{
+    "products": [
+        {
+            "title": "ADIDAS FC Bayern 22/23 Jersey",
+            "desc": "",
+            "id": 1,
+            "image_url": "https://i.postimg.cc/SKPR9Jz8/bayern-tab-min.jpg",
+            "price": "R1 899,00"
+        },
+        {
+            "title": "ADIDAS FC Bayern 22/23 Jersey",
+            "desc": "",
+            "id": 2,
+            "image_url": "https://i.postimg.cc/SKPR9Jz8/bayern-tab-min.jpg",
+            "price": "R1 899,00"
+        },
+        {
+            "title": "ADIDAS FC Bayern 22/23 Jersey",
+            "desc": "",
+            "id": 3,
+            "image_url": "https://i.postimg.cc/SKPR9Jz8/bayern-tab-min.jpg",
+            "price": "R1 899,00"
+        },
+        {
+            "title": "ADIDAS FC Bayern 22/23 Jersey",
+            "desc": "",
+            "id": 4,
+            "image_url": "https://i.postimg.cc/SKPR9Jz8/bayern-tab-min.jpg",
+            "price": "R1 899,00"
+        },
+        {
+            "title": "ADIDAS FC Bayern 22/23 Jersey",
+            "desc": "",
+            "id": 5,
+            "image_url": "https://i.postimg.cc/SKPR9Jz8/bayern-tab-min.jpg",
+            "price": "R1 899,00"
+        },
+        {
+            "title": "ADIDAS FC Bayern 22/23 Jersey",
+            "desc": "",
+            "id": 6,
+            "image_url": "https://i.postimg.cc/SKPR9Jz8/bayern-tab-min.jpg",
+            "price": "R1 899,00"
+        },
+        {
+            "title": "ADIDAS FC Bayern 22/23 Jersey",
+            "desc": "",
+            "id": 7,
+            "image_url": "https://i.postimg.cc/SKPR9Jz8/bayern-tab-min.jpg",
+            "price": "R1 899,00"
+        },
+        {
+            "title": "ADIDAS FC Bayern 22/23 Jersey",
+            "desc": "",
+            "id": 8,
+            "image_url": "https://i.postimg.cc/SKPR9Jz8/bayern-tab-min.jpg",
+            "price": "R1 899,00"
+        }
+    ]
+}
