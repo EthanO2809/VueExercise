@@ -7,23 +7,23 @@ export default createStore({
   },
 
   mutations: {
-    setTutorials: (state, products) => {
+    setProducts: (state, products) => {
       state.products = products;
     },
-    setTutorial: (state, product) => {
+    setProduct: (state, product) => {
       state.product = product;
     },
   },
   actions: {
-    getproducts: async (context) => {
-      fetch("http://localhost:3000/products")
-        .then((res) => res.json())
-        .then((products) => context.commit("setproducts", products));
-    },
-    getTutorial: async (context, id) => {
-      fetch("http://localhost:3000/product/" + id)
+    getProduct: async (context, id) => {
+      fetch("http://localhost:3000/products/" + id)
         .then((res) => res.json())
         .then((product) => context.commit("setProduct", product));
     },
-  },
+    getProducts: async (context) => {
+      fetch("http://localhost:3000/products")
+        .then((res) => res.json())
+        .then((products) => context.commit("setProducts", products));
+      },
+    },
 });
