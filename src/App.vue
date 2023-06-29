@@ -1,4 +1,5 @@
 <template>
+
   <nav class="lft">
     <div>
       <h2 class="head">Cool Krepts</h2>
@@ -12,6 +13,16 @@
     </div>
   </nav>
   <router-view />
+  <footer class="shad">
+        <div class="flex">
+            <div><a href="#"><img src="https://i.postimg.cc/d0KMNnqt/pngwing-com-13.png" alt="" class="logo"></a></div>
+            <div><a href="#"><img src="https://i.postimg.cc/htYYNsc7/pngwing-com-15.png" alt="" class="logo"></a></div>
+            <div><a href="#"><img src="https://i.postimg.cc/7YbMHgNn/pngwing-com-10.png" alt="" class="logo"></a></div>
+            <div><a href="#"><img src="https://i.postimg.cc/MGby1ZPK/pngwing-com-16.png" alt="" class="logo"></a></div>
+            <p class="mt-4"><b>CopyRights, Ethan Oliver ©️ 2023</b></p>
+        </div>
+  </footer>
+
 </template>
 
 <style>
@@ -37,6 +48,16 @@ nav a {
 
 nav a.router-link-exact-active {
   color: #000000;
+}
+  .logo {
+    width: 4rem;
+  }
+
+  .shad {
+    box-shadow: inset black 4px 4px 4px 4px;
+  }
+  .flex {
+  display: flex;
 }
 /* .lft {
   display: row;
